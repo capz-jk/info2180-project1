@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         messageDiv.textContent =
-            `Thank you! Your email address <${email}> has been added to our mailing list!`;
+            `Thank you! Your email address ${email} has been added to our mailing list!`;
 
         emailInput.value = "";
     });
